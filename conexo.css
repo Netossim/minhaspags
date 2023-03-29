@@ -21,6 +21,7 @@ body {
 .bg {
   width: 100%;
   height: 100vh;
+  color: black;
   text-align: center;
   white-space: normal;
   justify-content: center;
