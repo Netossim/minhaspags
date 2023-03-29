@@ -1,16 +1,16 @@
 a {
    color: black;
-   text-decoration: nome;
+   text-decoration: none;
 }
 a:visited {
-    color: #555;
+    color: black;
 }
 a:hover {
-    color: #999;
+    color: black;
 }
 
 a:active {
-    color: #333;
+    color: black;
 }
 
 body {
