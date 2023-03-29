@@ -1,5 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .bg {
-  max-width: 1215px;
+  width: 100%;
   height: 100vh;
   text-align: center;
   white-space: normal;
