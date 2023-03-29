@@ -1,6 +1,15 @@
-.a{
-  text-decoration: none;
-  color: white;
+a {
+   color: #000;
+}
+a:visited {
+    color: #555;
+}
+a:hover {
+    color: #999;
+}
+
+a:active {
+    color: #333;
 }
 
 body {
