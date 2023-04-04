@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+
+:root {
+  --cor-fundo: #f9f9f9;
+  --cor-fonte: #212121;
+  --cor-cinza: #a2a29d;
+  --cor-branco: #fff;
+  --fonte-texto: Montserrat;
+  --fonte-logo: 'Shantell Sans', cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fonte-texto);
+  font-size: 12px;
+  background-color: var(--cor-fundo);
+}
+
+img {
+  width: 350px;
+  height: 200px;
+}
+
+#produto-1, #produto-2, #produto-3{
+  background-color: #fff;
+}
+
+#produto-2, #produto-3 {
+  margin-top: 50px;
+}
+
+.dinheiro-1, .dinheiro-2, .dinheiro-3 {
+  display: flex;
+}
+
+ p {
+  color: var(--cor-fonte);
+  font-weight: bold;
+  text-align: center;
+}
+
+.dinheiro-1 h3, .dinheiro-2 h3, .dinheiro-3 h3 {
+  color: var(--menu-hover-texto);
+  font-weight: bold;
+  float: center;
+}
+
+.dinheiro-1 h4, .dinheiro-2 h4, .dinheiro-3 h4 {
+  color: var(--cor-cinza);
+  font-weight: bold;
+  float: left;
+}
+
+.dinheiro-1 h4 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.dinheiro-2 h4 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.dinheiro-3 h4 {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.dinheiro-1 h3 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.dinheiro-2 h3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.dinheiro-3 h3 {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.btn-comprar-1 {
+  margin-left: 15px;
+}
+
+.btn-comprar-2 {
+  margin-left: 20px;
+}
+
+.btn-comprar-3 {
+  margin-left: 25px;
+}
+
+.image-1, .image-2, .image-3 {
+  margin-top: 100px;
+}
+
+.btn-comprar-1, .btn-comprar-2, .btn-comprar-3 {
+  width: 100px;
+  background-color: var(--cor-branco);
+  border: 2px solid var(--menu-fundo);
+  border-radius: 50px;
+  color: var(--menu-fundo);
+  font-weight: bold;
+}
+
+.btn-comprar-1:hover, .btn-comprar-2:hover, .btn-comprar-3:hover {
+  background-color: var(--menu-fundo);
+  color: var(--cor-branco);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+
+	.image-1, .image-2, .image-3 {
+	margin-left: 510px;
+	width: 500px ;
+	height: 300px ;
+}
+
+	.dinheiro h4, h3, p {
+	font-size: 24px;
+}
+	
+	.dinheiro h4 {
+	margin-left: 680px ;
+}
+	.dinheiro h3 {
+	margin-left: 710px ;
+}
+
+}
